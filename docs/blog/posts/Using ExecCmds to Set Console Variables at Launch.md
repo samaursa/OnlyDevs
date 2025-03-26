@@ -11,7 +11,7 @@ tags:
 
 - Add console commands to your launch parameters with this syntax:	
 ```cpp
-	-ExecCmds="cvar1 value1, cvar2 value2, cvar3 value3"
+-ExecCmds="cvar1 value1, cvar2 value2, cvar3 value3"
 ``` 
 - Commands execute immediately after `GameInstance` initialization
 - Useful for testing specific configurations without changing code
