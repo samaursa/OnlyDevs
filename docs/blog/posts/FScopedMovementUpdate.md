@@ -1,3 +1,12 @@
+---
+title: FScopedMovementUpdate
+date: 2025-10-17
+tags:
+  - unreal
+  - transform
+  - batch
+  - movement
+---
 
 A scope-based RAII helper that batches USceneComponent transform updates to avoid redundant expensive operations, and can automatically revert failed moves.
 
