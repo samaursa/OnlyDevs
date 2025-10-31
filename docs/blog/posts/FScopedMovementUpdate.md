@@ -7,7 +7,6 @@ tags:
   - batch
   - movement
 ---
-
 A scope-based RAII helper that batches USceneComponent transform updates to avoid redundant expensive operations, and can automatically revert failed moves.
 
 **Problem it solves:**
